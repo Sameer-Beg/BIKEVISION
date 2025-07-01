@@ -39,6 +39,7 @@ export default function Dashboard() {
         {/* Main Content of my dashboard */}
         <div className="main-content">
           <h2>Fleet Overview</h2>
+          <p>Real-time monitoring of your IoT vehicle fleet</p>
 
           <div className="overview-cards">
             <div className="card">
