@@ -7,11 +7,7 @@ export default function App() {
 
   return (
     <>
-      {!isLoggedIn ? (
-        <Login onLoginSuccess={() => setIsLoggedIn(true)} />
-      ) : (
-        <Dashboard />
-      )}
+      {!isLoggedIn ? (<Login onLoginSuccess={() => setIsLoggedIn(true)} />) : (  <Dashboard /> )}
     </>
   );
 }

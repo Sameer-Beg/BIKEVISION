@@ -8,7 +8,7 @@ export default function Dashboard() {
   return (
     <div className="dashboard-container">
       
-      {/* Header */}
+      {/* Header part  in this we use react icons for my profile */}
       <div className="header">
         <h1>BikeVision</h1>
         <div className="profile-section">
@@ -25,16 +25,18 @@ export default function Dashboard() {
       </div>
 
       <div className="dashboard-body">
-        {/* Sidebar */}
+
+
+        {/* Sidebar bar part  */}
         <div className="sidebar">
           <button className="menu-btn active">Dashboard</button>
           <button className="menu-btn">Analytics</button>
-          <button className="menu-btn">Live Tracking</button>
-          <button className="menu-btn">Raw Data</button>
-          <button className="menu-btn">Battery Status</button>
+          <button className="menu-btn">Live tracking</button>
+          <button className="menu-btn">Raw data</button>
+          <button className="menu-btn">Battery status</button>
         </div>
 
-        {/* Main Content */}
+        {/* Main Content of my dashboard */}
         <div className="main-content">
           <h2>Fleet Overview</h2>
 
